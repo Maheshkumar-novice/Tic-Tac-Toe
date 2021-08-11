@@ -1,0 +1,92 @@
+Tic Tac Toe - 
+	Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.
+
+Steps:
+-> Understand the Problem (Explain simply, diagram)
+-> Plan (Pseudo Code, inputs, outputs, steps, ui, comments)
+-> Divide and Conquer (Split the problem into sub problems)
+
+Random Ideas:
+-> Color
+-> AI
+
+Understand the Problem:
+	build a tic tac toe game, O and X, two players compete, one player will be O and another will be X, X will start, O will follow, repeats until all boxes filled in the board, total 9 moves max. If the winning constraint occurs in the middle of the game like on or before 9th move, finish the game and announce the winner.
+	No need to check for winning constraint till 5th move because no possibility till 5th move. winning combos top row, middle row, bottom row, diagonal, 1st column, 2nd column, 3rd column.
+	start with asking for X or O for player 1 then automatically assign remaining one for player 2, show the user choices. Print the empty board. give instructions on how to move. we can get row value and column value 1,2,3. check it is not filled then update it or ask again till it is correct. after correct input check for win constraint if the move count is >= 5 else continue for the next player move. continue till the winner found or movecount reaches 9.
+	finally announce draw if no winner found else annouce winner.
+
+Plan:
+Input - player1 choice, player1 move -row & column, player2 move -row & column 
+Output - initial instructions, board state, result
+
+Pseudo Code:
+	- get -> player 1 choice (o or x)
+	- assign player1 and player2 choices
+	- print choices
+	- print instructions (init board, enter row and column values, row - 1, col - 1 represent 1st cell of the board)
+	- get choice of player with x
+	- check for cell availability
+	- if available update board
+	- else ask till correct cell found
+	- check for winning constraint
+	- if constraint found
+	- announce winner
+	- else 
+	- if move is 9th then exit announce draw
+	- continue to the next player move
+	- continue this
+
+What are the classes needed? What are the instance variables? What are the methods?
+	- Board => Print - Init with Rows and Columns - updateBoard - check Availablity
+	- Game => Check Result - Announce Result - Check Move - Init Call Board init
+	- Player => Choice - Name - Move - GetMove
+	class Board A=> @rows @columns M=>print init update isEmpty?
+	class Game  A=> @move @row @column M=> checkresult announce checkmove init
+	class Player A=> @name @choice @row @column M=>getmove
+
+Board Design:
+
+game board:
+ | X | O | X |
+---------------
+ | O | X | O |
+---------------
+ | X | O | X |
+
+init board:
+        2
+1 |   | O |   |
+ ---------------
+  |   |   |   |
+ ---------------
+  |   |   |   |
+
+input format:
+row => 1
+column => 2
+
+Enter Player 1 Choice (O / X(default)) >
+Player 1 : X  <=============> Player 2: O
+Player 1: X - move
+board goes here
+Player 2: O - move
+board goes here
+Player 1 - X - Won
+Oops! It's a Draw!
+Player 2 - O - Won
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
