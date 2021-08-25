@@ -32,9 +32,7 @@ This project is part of the [The Odin Project](https://www.theodinproject.com/pa
 </details>
 
 ## Description
-
-## Rules
-* 
+  This implementation of the **Tic-Tac-Toe** played between 2 human players. One player will be __*X*__ and the other player will be __*O*__. Board will contain **3 x 3** total **9** squares to place the symbol. Player who makes continuos three places with their symbol(*O* or *X*) wins. Each player will make their move one after the other. If no winner found in the total 9 moves, then the game will be announced as a **draw**.
 
 ## Demo
 ![Example](./assets/example.gif)
