@@ -54,7 +54,7 @@ You need to have Ruby installed locally. If you don't have, use [this](https://w
 git clone git@github.com:Maheshkumar-novice/Tic-Tac-Toe.git
 ```
 ```sh
-cd Mastermind
+cd Tic-Tac-Toe
 ```
 ```sh
 ruby main.rb
