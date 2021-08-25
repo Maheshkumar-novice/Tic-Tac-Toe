@@ -17,9 +17,6 @@ This project is part of the [The Odin Project](https://www.theodinproject.com/pa
       <a href="#built-with">Built With</a>
     </li>
     <li>
-      <a href="#algorithm">Algorithm</a>
-    </li>
-    <li>
       <a href="#play-online">Play Online</a>
     </li>
     <li>
@@ -56,9 +53,6 @@ This implementation of the **Mastermind** game is a **User vs Computer** type of
 ## Built With
 * Ruby
 
-## Algorithm
-Algorithm used for Computer Player's guessing is the **Swaszek** strategy. [Read more here](https://puzzling.stackexchange.com/a/8884)
-
 ## Play Online
 [replit](https://replit.com/@MaheshkumarP/Tic-Tac-Toe)
 
@@ -67,7 +61,7 @@ Algorithm used for Computer Player's guessing is the **Swaszek** strategy. [Read
 You need to have Ruby installed locally. If you don't have, use [this](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/installing-ruby-ruby-programming) to install Ruby first.
 ### installation
 ```sh
-git clone git@github.com:Maheshkumar-novice/Mastermind.git
+git clone git@github.com:Maheshkumar-novice/Tic-Tac-Toe.git
 ```
 ```sh
 cd Mastermind
