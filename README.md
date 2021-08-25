@@ -7,9 +7,6 @@ This project is part of the [The Odin Project](https://www.theodinproject.com/pa
     <li>
       <a href="#description">Description</a>
     </li>
-     <li>
-      <a href="#rules">Rules</a>
-    </li>
     <li>
       <a href="#demo">Demo</a>
     </li>
