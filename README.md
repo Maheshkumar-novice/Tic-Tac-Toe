@@ -39,7 +39,7 @@ This project is part of the [The Odin Project](https://www.theodinproject.com/pa
 * Ruby
 
 ## Play Online
-[replit](https://replit.com/@MaheshkumarP/Tic-Tac-Toe)
+[Replit](https://replit.com/@MaheshkumarP/Tic-Tac-Toe)
 
 ## Play Local
 ### prerequisites
